@@ -63,6 +63,6 @@
   let s:p.normal.error = [ [ s:accent0, s:shade0 ] ]
   let s:p.normal.warning = [ [ s:accent2, s:shade1 ] ]
 
-  let g:lightline#colorscheme#gato-neon#palette = lightline#colorscheme#fill(s:p)
+  let g:lightline#colorscheme#gatoneon#palette = lightline#colorscheme#fill(s:p)
 
   
