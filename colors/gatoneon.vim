@@ -80,7 +80,7 @@
 
   highlight clear
   syntax reset
-  let g:colors_name = "NeonGato"
+  let g:colors_name = "GatoNeon"
 
   """"""""""
   " Normal "
@@ -95,8 +95,8 @@
 
   " Default
 
-  exec "hi Comment guifg=".s:guishade2
-  exec "hi Comment ctermfg=".s:ctermshade2
+  exec "hi Comment guifg=".s:guishade4."gui=italic"
+  exec "hi Comment ctermfg=".s:ctermshade4." cterm=italic"
   exec "hi Constant guifg=".s:guiaccent3
   exec "hi Constant ctermfg=".s:ctermaccent3
   exec "hi Character guifg=".s:guiaccent4
